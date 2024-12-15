@@ -1,0 +1,22 @@
+{
+  "name": "threads-clone-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "@types/express": "4.17.21",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.9.0"
+  }
+}
